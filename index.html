@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>is your birthday lucky | vanillaJS</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <h1><span>🎂</span> is your birthday lucky?</h1>
+    <small><span>privacy notice</span> - we are not storing any data.</small>
+    <form>
+      <label for="dob">
+        DOB
+        <input type="date" name="dob" id="dob" required />
+      </label>
+      <label for="lucky-number">
+        Lucky number
+        <input
+          type="number"
+          min="1"
+          name="lucky-number"
+          id="lucky-number"
+          placeholder="Enter your lucky number"
+          required
+        />
+      </label>
+      <button class="btn-check" type="submit">Check</button>
+      <button class="btn-reset" type="reset">Reset</button>
+    </form>
+    <div class="output-container"></div>
+    <img class="graphic" src="/" alt="" />
+    <footer>
+      <div>
+        <a href="https://github.com/SK02K1" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://twitter.com/sk02k1" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+      <div>
+        <a
+          href="https://www.linkedin.com/in/sourabh-kheraliya-b2571b1a2/"
+          target="_blank"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://www.instagram.com/sourabh_kheraliya/" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://sourabh-kheraliya.netlify.app/" target="_blank">
+          <i class="fas fa-briefcase"></i>
+        </a>
+      </div>
+    </footer>
+    <script src="src/index.js" type="module"></script>
+  </body>
+</html>
