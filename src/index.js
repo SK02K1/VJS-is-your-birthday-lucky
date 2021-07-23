@@ -33,6 +33,9 @@ btnCheck.addEventListener("click", () => {
       outputContainer.innerText =
         "😔 Sorry, but your birthday is not a lucky number";
     }
+  } else {
+    graphic.setAttribute("src", "/");
+    outputContainer.innerText = "";
   }
 });
 
