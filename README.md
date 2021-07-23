@@ -1,2 +1,3 @@
 # VJS-is-your-birthday-lucky
-Created with CodeSandbox
+
+[Live project](https://0k0wu.csb.app/)
