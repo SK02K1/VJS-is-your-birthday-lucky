@@ -14,7 +14,7 @@ btnCheck.addEventListener("click", () => {
   if (
     dateOfBirthInputField.value !== "" &&
     luckyNumberInputField.value !== "" &&
-    parseInt(luckyNumberInputField.value, 10) !== 0
+    parseInt(luckyNumberInputField.value, 10) > 0
   ) {
     const num = functions.convertDateToNum(dateOfBirthInputField.value);
     const sumOfDigits = functions.getSumOfDigits(num);
